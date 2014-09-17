@@ -20,7 +20,7 @@
   (= (range 20) (take 20 (iterate inc 0)))
 
   "Repetition is key"
-  (= [:a :a :a :a :a :a :a :a :a :a ]
+  (= [:a :a :a :a :a :a :a :a :a :a]
      (repeat 10 :a))
 
   "Iteration can be used for repetition"
